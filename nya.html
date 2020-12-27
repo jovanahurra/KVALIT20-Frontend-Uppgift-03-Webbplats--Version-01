@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Nya element och attribut</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="hem.html">Hem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nya.html">Nya element och attribut</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="modifierade.html">Modifierade element och attribut</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="borttagna.html">Borttagna element och attribut</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="source.html">Källor</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/html4-html5.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+        
+            <h1 class="post-heading" style="text-align: center;">Nya element och attribut</h1>
+            <span class="subheading"></span>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h3> De nya elementen för att tillhandahålla sektioner är:</h3>
+      <p><b> ARTICLE </b> – För att representera en artikel, t.ex. tidningsartikel, blogginlägg, wiki-inlägg osv.</p>
+      <p><b> FOOTER </b> – En footer är det som förekommer längst ner på sidan, vilket t.ex. kan vara författaren av inlägget, copyright data osv.</p>
+      <p><b> HEADER </b> – En header innehåller en grupp av headers, där headers är avsedd att vara en sektions rubrik i form av t.ex. H1–H6 eller HGROUP.</p>
+      <p><b> NAV </b> – Nav står för navigation, och är menad att innehålla en uppsättning länkar till andra sidor.</p>
+      <p><b> SECTION </b> - En sektion på sidan, såsom ett kapitel i en bok.</p>
+      <h3>Grupperingselement</h3>
+      <p><b>FIGURE</b>– Representerar någon form av s.k. flow content. Vad som är flow content framgår <a href="https://html.spec.whatwg.org/multipage/dom.html#flow-content" target="_blank"> här.</a></p>
+      <p><b>FIGCAPTION</b> – Representerar en rubrik för innehåll i ett figure-element.</p>
+      <h3>Elementet INPUT</h3>
+      <p>
+        Elementet INPUT är lite speciellt, på så sätt att dess funktionalitet bestäms huvudsakligen av dess attribut type. HTML 5 introducerar flera nya värden till type för att kontrollera hur den kommer utformas. Dessa nya värden är:
+      </p>
+      <ul>
+    
+        <li> <b> date </b> – Definierar ett datumfält, bestående av år, månad, och datum (men inte tidszon).</li>
+       <li> <b> datetime </b>– Definierar ett datumfält inklusive tid för UTC tid, bestående av tid, datum, månad, och år.</li>
+        <li> <b> time </b>– Definierar ett datumfält för tid, bestående av timme och sekund.</li>
+        <li> <b> datetime-local</b> – Definierar ett datumfält för lokal tid, bestående av år, månad, datum, och tid. </li>
+        <li> <b>  month  </b>– Definierar ett datumfält för månad och år. </li>
+        <li> <b> week </b> – Definierar ett datumfält för vecka och år. </li>
+        <li> <b> search </b> – Definierar ett textfält för att söka i, t.ex. Google sökfält. Beter sig som ett vanligt sökfält.</li>
+        <li> <b>  tel </b> – Definierar ett textfält för telefonnummer.</li>
+        <li> <b>  url </b>– Definierar ett textfält för att skriva in URL-adresser i. Värdet i textfältet valideras automatiskt när det skickas till servern.</li>
+        <li> <b> email</b> – Definierar ett textfält för att skriva in email-adresser i. Värdet i textfältet valideras automatiskt när det skickas till servern.</li>
+        <li> <b> number </b>– Definierar ett textfält för att välja mellan numeriska värden. Det går att begränsa vilka värden som är acceptabla.</li>
+        <li> <b> color </b>– Definierar en ”color picker” för att välja mellan färger.</li>
+        <li> <b> range </b>– Definierar en ”slider bar” för att välja mellan numeriska värden. Det går att begränsa acceptabla värden, se ovanför.</li>
+      </ul>
+
+      <p>
+        För att testa dessa, tryck <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">här.</a> </p>
+      <p>Fördelen med flera typer till input är att det underlättar arbetet med att validera data som skickas mot servern.</p>
+      <h3>Övriga element</h3>
+      <p>Här är en uppsättning av nya, intressanta element som införs i HTML 5:</p>
+    <p><b> VIDEO</b> – Definierar filminnehåll, t.ex. film eller strömmande film. </p>
+      <p><b> AUDIO</b> – Definierar ljudinnehåll, t.ex. musik eller strömmande audio.</p>
+      <p><b>TIME</b>– Definierar datum eller tid eller både och.</p>
+      <p><b>CANVAS</b> – Definierar grafikinnehåll.</p>
+      <p><b>DATALIST</b> – Definierar en drop down lista. Bör kombineras med input.</p>
+      <p><b>KEYGEN</b> – Definierar en genererad nyckel med RSA-kryptering, eller annan.</p>
+      <p><b>OUTPUT</b> – Definierar någon slags utdata, t.ex. från script.</p>
+      <p>Multimedia-element som <b>AUDIO</b>  och <b>VIDEO</b> är förmodligen de mest omtalade. Det är enklare att hantera multimedia i HTML5 tack vare de nya elementen medan multimedia tillhandahålls av en tredje part i HTML4 (t.ex. Flash, QuickTime, Windows Media Player eller RealPlayer).</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://github.com/OlDo2001/KVALIT20-Frontend-Uppgift-03-Webbplats--Version-01" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Jovana Hurra & Olga Domorod 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
